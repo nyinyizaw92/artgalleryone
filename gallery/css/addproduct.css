@@ -1,0 +1,31 @@
+.container{
+	margin-top:30px;
+}
+
+@media screen and (max-width: 768px){
+	
+	.main-nav{display: none;}
+	.ptext{
+		margin-top:80px;
+	}
+	.mobile-icon{
+		display: inline-block;
+		color:white;
+		margin-right: 255px;
+		font-size:30px
+	}
+
+
+	.main-nav li{
+		display: block
+    }
+  
+    .form-group{
+        width:350px
+    }
+
+    .wh{
+        width:380px
+    }
+
+}

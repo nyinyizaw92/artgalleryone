@@ -1,0 +1,53 @@
+.body{
+    margin-top:100px
+}
+
+.currentimage{
+    width:293px;
+    height:150px;
+}
+
+figure{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background:transparent;
+    padding:10px;
+}
+
+@media screen and (max-width: 768px){
+	
+	.main-nav{display: none;}
+	.ptext{
+		margin-top:80px;
+	}
+	.mobile-icon{
+		display: inline-block;
+		color:white;
+		margin-right: 255px;
+		font-size:30px
+	}
+
+
+	.main-nav li{
+		display: block
+    }
+
+    .row{
+        max-width:200px
+    }
+
+    .col-sm-3{
+        max-width:230px;
+        margin-left:35px
+    }
+  
+    figure{
+        width:360px;
+        height:320px;
+        margin-left:38px;
+        padding:30px
+    }
+
+    .currentimage{
+        width:300px
+    }
+}

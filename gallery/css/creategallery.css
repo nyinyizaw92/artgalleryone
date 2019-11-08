@@ -1,0 +1,93 @@
+.container{
+    margin-top:30px
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.top{
+    margin-top:70px
+}
+
+.ok_btn{
+    width:150px
+}
+
+.form-group{
+    width:400px
+}
+.cancel_btn{
+    width:150px
+}
+
+.wh{
+    margin-left:-15px;
+    width:850px
+}
+
+.add_gallery{
+    width:400px
+}
+
+@media screen and (max-width: 768px){
+	
+	.main-nav{display: none;}
+	.ptext{
+		margin-top:80px;
+	}
+	.mobile-icon{
+		display: inline-block;
+		color:white;
+		margin-right: 255px;
+		font-size:30px
+	}
+
+
+	.main-nav li{
+		display: block
+    }
+
+    .form-group{
+        margin-left:35px;
+    }
+
+    .wh{
+        position:relative;
+       margin-left:20px;
+       width:760px
+    }
+
+    .med{
+       
+        margin-left:35px
+    }
+
+    #g{
+        position: relative;
+        margin-left:55px;
+    }
+
+    .add_gallery{
+        margin-left:35px;
+        width:150px
+    }
+
+    .cancel_btn{
+        margin-left:-50px
+    }
+
+    .ok_btn{
+        margin-left:-15px
+    }
+
+    input[type=checkbox]{
+        margin-left:-55px
+    }
+
+    i{
+        margin-left:0px;
+        font-size:12px
+    }
+}

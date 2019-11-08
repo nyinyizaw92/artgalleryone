@@ -1,0 +1,66 @@
+.detailimage{
+    margin-top:15px;
+    margin-left:30px;
+    width:580px;
+    height:350px;
+}
+
+h6{
+    margin-left:30px;
+    margin-top:15px; 
+}
+
+form{
+    margin-top:15px
+}
+
+.col-sm-4{
+    margin-top:35px;
+    text-align:center;
+}
+
+.auctionform{
+    margin-top:55px;
+    margin-left:25px;
+}
+
+.auction_user{
+    margin-left:80px
+}
+
+.bit_name{
+    text-align:right;
+    font-weight: bold;
+}
+
+.bit_price{
+    text-align:left;
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .col-sm-10{
+        padding-left:35px
+    }
+
+    .detailimage{
+        width:500px;
+        height:350px;
+    }
+   
+
+    .col-sm-4{
+        position:absolute;
+        margin-top:630px;
+        margin-left:30px;
+    }
+
+    .form-group{
+        width:500px
+    }
+
+    #btn{
+        margin-top:15px;
+    }
+}
